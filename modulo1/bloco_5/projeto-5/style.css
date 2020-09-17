@@ -12,7 +12,6 @@ body {
 .cmeme-image-container {
     width: 400px;
     height: 400px;
-    padding-bottom: 20px;
     margin: auto;
     border: 1px;
     border-color: black;
@@ -20,16 +19,32 @@ body {
     background-color: white;
 }
 
-
-.cmeme-image {
+#meme-image{
+    position: relative;
     width: 400px;
     height: 400px;
+    top:-42px;
+}
 
+.cmeme-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top:-42px;
 }
 
 .cmeme-text {
     position: relative;
     top: 340px;
     color: white;
-    font-size: 30px;
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#meme-text{
+    position: relative;
+    top: 340px;
+    color: white;
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
